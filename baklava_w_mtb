@@ -1,0 +1,21 @@
+def baklava(size):
+    print("---------------------------- size = "+str(size))
+    tot_lines = size 
+    curr_line = 1
+    while curr_line <= tot_lines:
+        empty_space = tot_lines - curr_line
+        print(2*empty_space*" "+curr_line*"*---")
+        curr_line = curr_line + 1
+        
+        
+    curr_line = tot_lines - 1
+    while curr_line >= 1:
+        empty_space = tot_lines - curr_line
+        print(2*empty_space*" "+curr_line*"*---")
+        curr_line = curr_line - 1    
+        
+      
+x = 1
+while x<=30:
+    baklava(x)
+    x = x + 1
